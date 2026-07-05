@@ -1,5 +1,5 @@
 <mapper>
     <select>
-        select * from grs_contract_info fetch ${pageSize} rows only
+        select * from grs_contract_info fetch #{pageSize} rows only
     </select>
 </mapper>
