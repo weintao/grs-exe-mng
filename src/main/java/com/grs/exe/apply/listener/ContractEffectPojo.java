@@ -1,5 +1,6 @@
 package com.grs.exe.apply.listener;
 
+import com.sun.org.apache.xpath.internal.objects.XString;
 import lombok.Builder;
 import lombok.Data;
 
@@ -8,4 +9,6 @@ import lombok.Data;
 public class ContractEffectPojo {
 
     private String contractId;
+
+    private XString status;
 }
